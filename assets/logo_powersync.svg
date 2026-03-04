@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gLine" x1="8" y1="32" x2="56" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D7E0"/>
+      <stop offset="1" stop-color="#62F0E8"/>
+    </linearGradient>
+    <linearGradient id="gBolt" x1="30" y1="16" x2="42" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5B5B"/>
+      <stop offset="1" stop-color="#FF9A3D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ECG line -->
+  <path d="M10 34H22L27 26L31 42L36 30H54" stroke="url(#gLine)" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bolt (simple, clean) -->
+  <path d="M34 14L24 34H33L30 50L44 28H35L38 14H34Z" fill="url(#gBolt)"/>
+</svg>
